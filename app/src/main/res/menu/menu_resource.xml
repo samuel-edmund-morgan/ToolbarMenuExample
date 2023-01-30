@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_foreground"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/contacts"
+        android:title="Contacts"
+        android:icon="@drawable/ic_contacts_foreground"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/photo"
+        android:title="Photo"
+        android:icon="@drawable/ic_photo_foreground"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/back"
+        android:title="Back"
+        android:icon="@drawable/ic_arrow_foreground"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        />
+
+</menu>
